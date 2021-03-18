@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+.bg_color{
+  background-color: rgba(0, 0, 0, .60);
+}
+  main {
+    flex: 1 0 auto;
+  }
+.trans, .page-footer .footer-copyright{
+    background-color: transparent;
+}
+.grid{
+    display: grid;
+    justify-items: end;
+}
+._90{
+    width: 90%;
+}
+._100p{
+  width :100px;
+}
+._40p{
+  width:40px;
+}
+.gambar{
+  margin:5px;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.no-margin{
+  margin-top: 0;
+}
+.lighter{
+  font-weight: lighter;
+}
+.no-marginall{
+  margin-top:0;
+   margin-bottom:0;
+}
+.bordor{
+  border-radius: 25px;
+}
+
+.calon{
+  width: 35%;
+  display: grid;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+.fotoCalon{
+  padding: 30px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.transt{
+  display: none;
+}
+.pembesar{ 
+  font-size: 9rem;
+  font-weight: bold;
+}
+.pengecil{
+  font-size: 2rem;
+}
